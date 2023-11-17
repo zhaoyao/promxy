@@ -47,6 +47,7 @@ import (
 	"github.com/jacksontj/promxy/pkg/alertbackfill"
 	proxyconfig "github.com/jacksontj/promxy/pkg/config"
 	"github.com/jacksontj/promxy/pkg/logging"
+	_ "github.com/jacksontj/promxy/pkg/metricsql"
 	"github.com/jacksontj/promxy/pkg/middleware"
 	"github.com/jacksontj/promxy/pkg/proxystorage"
 	"github.com/jacksontj/promxy/pkg/server"
